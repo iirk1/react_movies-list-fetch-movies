@@ -3,7 +3,7 @@ import './FindMovie.scss';
 import { MovieCard } from '../MovieCard';
 import { getMovie } from '../../api';
 import { MovieData } from '../../types/MovieData';
-import { ResponseError } from '../../types/ReponseError';
+import { ResponseError } from '../../types/ResponseError';
 import classNames from 'classnames';
 
 type Props = {
